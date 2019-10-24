@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:main-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -37,7 +37,7 @@ F 3 "" H 1500 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C5
+L main-rescue:C-device C5
 U 1 1 5B06DF0F
 P 800 1050
 F 0 "C5" H 915 1096 50  0000 L CNN
@@ -94,7 +94,7 @@ Wire Wire Line
 	2150 850  2150 900 
 Connection ~ 1800 850 
 $Comp
-L device:C C6
+L main-rescue:C-device C6
 U 1 1 5B06DF30
 P 1150 1050
 F 0 "C6" H 1265 1096 50  0000 L CNN
@@ -105,7 +105,7 @@ F 3 "" H 1150 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C7
+L main-rescue:C-device C7
 U 1 1 5B06DF37
 P 1500 1050
 F 0 "C7" H 1615 1096 50  0000 L CNN
@@ -116,7 +116,7 @@ F 3 "" H 1500 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C8
+L main-rescue:C-device C8
 U 1 1 5B06DF3E
 P 1800 1050
 F 0 "C8" H 1915 1096 50  0000 L CNN
@@ -127,7 +127,7 @@ F 3 "" H 1800 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C9
+L main-rescue:C-device C9
 U 1 1 5B06DF45
 P 2150 1050
 F 0 "C9" H 2265 1096 50  0000 L CNN
@@ -138,7 +138,7 @@ F 3 "" H 2150 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Battery_Cell BT1
+L main-rescue:Battery_Cell-device BT1
 U 1 1 5B06DF4C
 P 2850 1150
 F 0 "BT1" H 2968 1246 50  0000 L CNN
@@ -177,7 +177,7 @@ F 3 "" H 1900 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D1
+L main-rescue:LED-device D1
 U 1 1 5B0710EF
 P 1150 2000
 F 0 "D1" H 1142 1745 50  0000 C CNN
@@ -188,7 +188,7 @@ F 3 "~" H 1150 2000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R1
+L main-rescue:R-device R1
 U 1 1 5B0710F6
 P 1600 2000
 F 0 "R1" V 1393 2000 50  0000 C CNN

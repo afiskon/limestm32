@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:main-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -51,7 +51,7 @@ F 3 "" H 800 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C2
+L main-rescue:C-device C2
 U 1 1 5B7344A6
 P 1250 1450
 F 0 "C2" H 1365 1496 50  0000 L CNN
@@ -62,7 +62,7 @@ F 3 "" H 1250 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C1
+L main-rescue:C-device C1
 U 1 1 5B7344AD
 P 800 1450
 F 0 "C1" H 915 1496 50  0000 L CNN
@@ -73,7 +73,7 @@ F 3 "" H 800 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Crystal Y1
+L main-rescue:Crystal-device Y1
 U 1 1 5B7344B4
 P 1050 1100
 F 0 "Y1" H 1050 832 50  0000 C CNN
@@ -128,7 +128,7 @@ F 3 "" H 1750 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C4
+L main-rescue:C-device C4
 U 1 1 5B745910
 P 2200 1450
 F 0 "C4" H 2315 1496 50  0000 L CNN
@@ -139,7 +139,7 @@ F 3 "" H 2200 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C3
+L main-rescue:C-device C3
 U 1 1 5B745917
 P 1750 1450
 F 0 "C3" H 1865 1496 50  0000 L CNN
@@ -150,7 +150,7 @@ F 3 "" H 1750 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Crystal Y2
+L main-rescue:Crystal-device Y2
 U 1 1 5B74591E
 P 2000 1100
 F 0 "Y2" H 2000 832 50  0000 C CNN

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:main-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_ST_STM32:STM32F405RGTx U?
+L main-rescue:STM32F405RGTx-MCU_ST_STM32 U?
 U 1 1 5B07CDF0
 P 6100 4050
 AR Path="/5B07CDF0" Ref="U?"  Part="1" 
@@ -86,7 +86,7 @@ Wire Wire Line
 	5900 1950 5900 2050
 Connection ~ 6000 1950
 $Comp
-L device:C C10
+L main-rescue:C-device C10
 U 1 1 5B07CE17
 P 1150 3200
 F 0 "C10" H 1265 3246 50  0000 L CNN
@@ -97,7 +97,7 @@ F 3 "" H 1150 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Jumper JP1
+L main-rescue:Jumper-device JP1
 U 1 1 5B07CE24
 P 1400 2650
 F 0 "JP1" H 1400 2914 50  0000 C CNN
@@ -157,7 +157,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 2450 1800 2450
 $Comp
-L device:C C11
+L main-rescue:C-device C11
 U 1 1 5B07CE46
 P 1400 1850
 F 0 "C11" V 1148 1850 50  0000 C CNN
@@ -193,7 +193,7 @@ PC13
 Text GLabel 2250 1550 0    50   BiDi ~ 0
 PD2
 $Comp
-L device:LED D2
+L main-rescue:LED-device D2
 U 1 1 5B07CE5B
 P 2500 1550
 F 0 "D2" H 2492 1295 50  0000 C CNN
@@ -204,7 +204,7 @@ F 3 "~" H 2500 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R2
+L main-rescue:R-device R2
 U 1 1 5B07CE62
 P 2950 1550
 F 0 "R2" V 2743 1550 50  0000 C CNN
@@ -434,7 +434,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 5650 1550 5650
 $Comp
-L device:C C12
+L main-rescue:C-device C12
 U 1 1 5B0728D5
 P 1600 3200
 F 0 "C12" H 1715 3246 50  0000 L CNN
@@ -477,7 +477,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 3400 1150 3350
 $Comp
-L device:Jumper JP2
+L main-rescue:Jumper-device JP2
 U 1 1 5B307112
 P 4700 1650
 F 0 "JP2" H 4700 1914 50  0000 C CNN
@@ -520,7 +520,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1650 4400 1650
 $Comp
-L device:C C13
+L main-rescue:C-device C13
 U 1 1 5B30712E
 P 4000 1050
 F 0 "C13" V 3748 1050 50  0000 C CNN
@@ -541,7 +541,7 @@ Wire Wire Line
 	4300 1050 4300 1500
 Connection ~ 4300 1500
 $Comp
-L device:R R3
+L main-rescue:R-device R3
 U 1 1 5B30A9BB
 P 4300 900
 F 0 "R3" V 4093 900 50  0000 C CNN

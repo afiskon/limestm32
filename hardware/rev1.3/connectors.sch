@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:main-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,9 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_02x05_Odd_Even J1
+L main-rescue:Conn_02x05_Odd_Even-Connector J1
 U 1 1 5B75812E
 P 1750 1300
+AR Path="/5B75812E" Ref="J1"  Part="1" 
+AR Path="/5B74872F/5B75812E" Ref="J1"  Part="1" 
 F 0 "J1" H 1800 1300 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 1800 1626 50  0001 C CNN
 F 2 "Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Angled" H 1750 1300 50  0001 C CNN
@@ -116,7 +118,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 850  1800 850 
 $Comp
-L Connector:Conn_02x14_Odd_Even J3
+L main-rescue:Conn_02x14_Odd_Even-Connector J3
 U 1 1 5B760B19
 P 4200 2750
 F 0 "J3" H 4250 2750 50  0000 C CNN
@@ -127,7 +129,7 @@ F 3 "~" H 4200 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_02x14_Odd_Even J4
+L main-rescue:Conn_02x14_Odd_Even-Connector J4
 U 1 1 5B760B20
 P 6000 2750
 F 0 "J4" H 6050 2750 50  0000 C CNN
@@ -138,7 +140,7 @@ F 3 "~" H 6000 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L modules:Arduino_UNO_R3 J2
+L main-rescue:Arduino_UNO_R3-modules J2
 U 1 1 5B760B27
 P 2100 2750
 F 0 "J2" V 2050 2750 50  0000 R CNN

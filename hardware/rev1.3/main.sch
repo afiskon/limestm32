@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:main-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -39,7 +39,7 @@ F0 "MCU" 50
 F1 "mcu.sch" 50
 $EndSheet
 $Comp
-L Mechanical:Mounting_Hole MK1
+L main-rescue:Mounting_Hole-Mechanical MK1
 U 1 1 5B07E576
 P 3150 950
 F 0 "MK1" H 3250 996 50  0000 L CNN
@@ -50,7 +50,7 @@ F 3 "" H 3150 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK2
+L main-rescue:Mounting_Hole-Mechanical MK2
 U 1 1 5B07E86F
 P 3150 1100
 F 0 "MK2" H 3250 1146 50  0000 L CNN
@@ -61,7 +61,7 @@ F 3 "" H 3150 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK3
+L main-rescue:Mounting_Hole-Mechanical MK3
 U 1 1 5B07E889
 P 3150 1250
 F 0 "MK3" H 3250 1296 50  0000 L CNN
@@ -72,7 +72,7 @@ F 3 "" H 3150 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK4
+L main-rescue:Mounting_Hole-Mechanical MK4
 U 1 1 5B07E8A5
 P 3150 1400
 F 0 "MK4" H 3250 1446 50  0000 L CNN
